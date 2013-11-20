@@ -122,7 +122,7 @@
     isInView();
 
     // On page scroll determine if $dockRef is out of view
-    $(document).scroll(isInView);
+    $(window).scroll(isInView);
 
     // On window resize determine if $dockRef is out of view
     $(window).resize(isInView);
